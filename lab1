@@ -1,0 +1,19 @@
+#!/bin/bash
+#this is commeeent
+mkdir papka
+touch ourFile
+touch file1
+cp ourFile file1
+mv file1 ourFile
+rm -r papka
+pwd
+whoami
+echo "CD without parameters shows us imena tekushego diska i kataloga "
+cat ourFile 
+less ourFile
+echo "cat-pokazivaet soderjimoe faila "
+echo "less-takje kak i cat,no pokazivaet tolko to 4to pomeshaetsia v okno "
+echo "terminala, usai strelki and q "
+echo "End of first part lab namba one "
+
+

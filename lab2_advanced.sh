@@ -15,21 +15,20 @@ which less
 echo "/usr/bin/less"
 which find
 echo "/usr/bin/find"
-echo "Kоманды cat, less, grep и find находятся в директории bin."
+echo "K...... cat, less, grep . find ......... . .......... bin."
 echo $PATH
 echo "(/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games)"
-echo "Переменная окружения PATH  указывает путь поиска исполняемых файлов."
-echo "Директория найденная в п.1 входит в $PATH."
-echo "Переменные окружения используются для хранения текстовых строк пользователя и информации о настройках операционных систем."
-mkdir progamming
+echo ".......... ......... PATH  ......... .... ...... ........... ......."
+echo ".......... ......... . ..1 ...... . $PATH."
+echo ".......... ......... ............ ... ........ ......... ..... ............ . .......... . .......... ............ ......."
+mkdir programming
 cd programming
 > program.c
-echo 'int main() {printf("This is example"); }' > program.c
+echo 'int main() {printf("This is simple example\n"); }' > program.c
 gcc -include stdio.h program.c program.exe
 gcc program.c -o program.exe
 ./program.exe
 cd ..
 programming/./program.exe
 export PATH=$PATH:programming
-
 
